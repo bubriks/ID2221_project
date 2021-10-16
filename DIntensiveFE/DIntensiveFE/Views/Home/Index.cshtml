@@ -1,0 +1,50 @@
+﻿@model dynamic
+@if (String.IsNullOrEmpty(Context.Request.Query["filename"]))
+{
+
+
+    <div class="text-center">
+        <div class="container">
+            <div class="row">
+
+                @foreach (KeyValuePair<string, blob> entry in Model)
+                {
+                    <div class="col-sm">
+                        <a href="Home?filename=@entry.Key"> <img src="@entry.Value.image" width="250" height="250" /></a>
+                    </div>
+                    // do something with entry.Value or entry.Key
+                }
+            </div>
+        </div>
+
+
+    </div>
+}
+else
+{ 
+    <div class="text-center">
+        <div class="container">
+               
+                
+            <div class="col-sm">
+                <p>@Context.Request.Query["filename"]</p>
+                <img src="@Model.image" width="250" height="250" />
+                <p>@Model.desc</p>
+            </div>
+                
+        </div>
+
+
+    </div>
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIntensiveFE", "DIntensiveFE\DIntensiveFE.csproj", "{6B50DB99-342C-4F0B-9262-805141CBCE06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B50DB99-342C-4F0B-9262-805141CBCE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B50DB99-342C-4F0B-9262-805141CBCE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B50DB99-342C-4F0B-9262-805141CBCE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B50DB99-342C-4F0B-9262-805141CBCE06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80649DC6-5F47-4C8A-A2F8-7DBBB692D119}
+	EndGlobalSection
+EndGlobal
